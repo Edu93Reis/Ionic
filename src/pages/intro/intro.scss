@@ -1,0 +1,17 @@
+page-intro {
+  ion-title.intro_title{
+    text-align: center;
+  }
+  ion-slide.intro_slide{
+    padding: 10px;
+  }
+  .intro_slide img {
+    width: 60%;
+  }
+  button.app_btn{
+    width: 180px;
+  }
+  p button.app_btn h3{
+    font-size: 14px;
+  }
+}

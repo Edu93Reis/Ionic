@@ -1,0 +1,52 @@
+<!--
+  Generated template for the IntroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title class="intro_title">Prefiro com Header</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<!--<ion-content padding>-->
+<ion-content>
+  <!-- conteudo para construção de slider, da base de dados ion-ionic -->
+  <ion-slides pager>
+
+    <ion-slide class="intro_slide">
+      <img src="assets/imgs/slide/slide1.png" alt="Slide 01">
+      <h2>Slide 1</h2>
+      <div>
+        <p>Este app será um chuchu!</p>
+        <p><button class="app_btn"><h3>Clique e descubra mais</h3></button></p>
+      </div>
+      <a (click)="goToTabsPage()">Home</a>
+    </ion-slide>
+
+    <ion-slide class="intro_slide">
+      <img src="assets/imgs/slide/slide2.png" alt="Slide 02">
+      <h2>Slide 2</h2>
+      <div>
+        <p>Este app será um chuchu!</p>
+        <p><button class="app_btn"><h3>Clique e descubra mais</h3></button></p>
+      </div>
+      <a (click)="goToTabsPage()">Home</a>
+    </ion-slide>
+
+    <ion-slide class="intro_slide">
+      <img src="assets/imgs/slide/slide3.png" alt="Slide 03">
+      <h2>Slide 3</h2>
+      <div>
+        <p>Este app será um chuchu!</p>
+        <p><button class="app_btn"><h3>Clique e descubra mais</h3></button></p>
+      </div>
+      <a (click)="goToTabsPage()">Home</a>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
