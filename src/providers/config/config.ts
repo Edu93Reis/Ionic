@@ -17,11 +17,11 @@ let configKeyName = "config";
 export class ConfigProvider {
   
   //objeto config com parametros
-  private config = {
-    showSlide: false,
+  /*private config = {
+    showSlide: True,
     name: "",
     userName: ""
-  }
+  }*/
 
   constructor(public http: Http) {
     

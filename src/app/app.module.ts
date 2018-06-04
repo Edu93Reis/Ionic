@@ -17,12 +17,12 @@ import { HttpModule } from '@angular/http';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MovieProvider } from '../providers/movie/movie';
-import { ConfiguracoesPage } from '../pages/configuracoes/configuracoes';
-import { SobrePage } from '../pages/sobre/sobre';
-import { PerfilPage } from '../pages/perfil/perfil';
-import { ConfiguracoesPageModule } from '../pages/configuracoes/configuracoes.module';
-import { SobrePageModule } from '../pages/sobre/sobre.module';
-import { PerfilPageModule } from '../pages/perfil/perfil.module';
+//import { ConfiguracoesPage } from '../pages/configuracoes/configuracoes';
+//import { SobrePage } from '../pages/sobre/sobre';
+//import { PerfilPage } from '../pages/perfil/perfil';
+//import { ConfiguracoesPageModule } from '../pages/configuracoes/configuracoes.module';
+//import { SobrePageModule } from '../pages/sobre/sobre.module';
+//import { PerfilPageModule } from '../pages/perfil/perfil.module';
 
 @NgModule({
   declarations: [
@@ -30,10 +30,10 @@ import { PerfilPageModule } from '../pages/perfil/perfil.module';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage,
-    ConfiguracoesPage,
+    TabsPage
+    /*ConfiguracoesPage,
     SobrePage,
-    PerfilPage   
+    PerfilPage   */
   ],
   imports: [
     BrowserModule,
@@ -41,9 +41,9 @@ import { PerfilPageModule } from '../pages/perfil/perfil.module';
     FeedPageModule,
     IntroPageModule,
     HttpModule,
-    ConfiguracoesPageModule,
+    /*ConfiguracoesPageModule,
     SobrePageModule,
-    PerfilPageModule
+    PerfilPageModule*/
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -56,6 +56,7 @@ import { PerfilPageModule } from '../pages/perfil/perfil.module';
   providers: [
     StatusBar,
     SplashScreen,
+    MovieProvider,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
