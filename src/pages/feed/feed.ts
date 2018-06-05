@@ -18,13 +18,14 @@ import { MovieProvider } from '../../providers/movie/movie';
   ]
 })
 export class FeedPage {
+  /** **/
   public feed = {
     titulo: "Salvador Dali",
     data: "5 de Novembro de 2017",
     descricao: "Este é o meu primeiro app =D",
     qtLikes: 999,
     qtComments: 1,
-    timeComment: "1 hora atrás"
+    timeComment: "1 hora atrás",
   }
 
   //
